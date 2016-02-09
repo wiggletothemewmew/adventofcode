@@ -66,7 +66,7 @@ public class Day2_IWasToldThereWouldBeNoMath {
 	
 	public static void main(String args[]){
 		try {
-			String input = File_Reader.readFile("C:/Users/wiggletothemewmew/workspace/AdventOfCode/input/IWasToldThereWouldBeNoMath.txt");
+			String input = File_Reader.readFile("input/IWasToldThereWouldBeNoMath.txt");
 			System.out.println("Need to order wrapping paper(sq ft): " + Day2_IWasToldThereWouldBeNoMath.getTotalSqFtWrappingPaper2Order(input));
 			System.out.print("Need to order ribbon (ft): " + Day2_IWasToldThereWouldBeNoMath.getTotalLengthOfRibbon(input));
 		} catch (IOException e) {

@@ -110,7 +110,7 @@ public class Day3_PerfectlySphericalHousesInAVacuum {
 	
 	public static void main(String[] args) {
 		try {
-			String s = File_Reader.readFile("C:/Users/wiggletothemewmew/workspace/AdventOfCode/input/PerfectlySphericalHousesInAVacuum.txt");
+			String s = File_Reader.readFile("input/PerfectlySphericalHousesInAVacuum.txt");
 			/*long startTime = System.currentTimeMillis();*/
 			System.out.println("Number of Houses Visited By Santa Only: " + getNumberOfHousesVisitedBySantaOnly(s));
 			/*long endTime   = System.currentTimeMillis();

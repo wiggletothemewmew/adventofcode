@@ -61,7 +61,7 @@ public class Day1_NotQuiteLisp {
 
 	public static void main(String args[]){
 		try {
-			String s = File_Reader.readFile("C:/Users/wiggletothemewmew/workspace/AdventOfCode/input/NotQuiteLisp.txt");
+			String s = File_Reader.readFile("input/NotQuiteLisp.txt");
 			System.out.println("Following instructions to Floor: " + findFloor(s));
 			System.out.println("First enter basement at index: " + getIndexForBasement(s));
 		} catch (IOException e) {

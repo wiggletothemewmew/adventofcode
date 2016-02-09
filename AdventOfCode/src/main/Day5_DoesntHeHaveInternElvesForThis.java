@@ -55,7 +55,7 @@ How many strings are nice under these new rules?
 	
 	public static void main(String[] args) {
 		try {
-			String s = File_Reader.readFile("C:/Users/wiggletothemewmew/workspace/AdventOfCode/input/DoesntHeHaveInternElvesForThis.txt");
+			String s = File_Reader.readFile("input/DoesntHeHaveInternElvesForThis.txt");
 			String[] s_array = s.split("\n");
 			int numOfNice = 0;
 			for (String input: s_array) 
